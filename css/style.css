@@ -1,0 +1,532 @@
+@font-face{
+    font-family: 'micke';
+    src: url(../Fonts/Michelangelo.otf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.home-site {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-image: url(https://wallpapercave.com/wp/wp2570965.jpg); */
+    background-size: 100%;
+    
+}
+
+.navegação {
+    background-color: #19b5fe;
+    float:left;
+    width: 99vw;
+    height:  100px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.imagem {
+    width: 20vw;
+    height: 100%;
+}
+
+.navegação  img {
+    height: 99px;
+    margin: 1px;
+}
+
+.meio {
+
+    width: 50vw;
+    height: 50%;
+    margin-top: 4%;
+
+}
+
+.meio ul {
+    display: inline;
+    margin-left: 6vw;
+    
+
+}
+
+.meio li{
+    display: inline;
+    margin: 10px;
+    padding: 0px 22px;
+}
+
+.meio ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.meio ul li a:hover {
+    text-decoration: underline rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: black;
+}
+
+.cad {
+    width: 30vw;
+    height: 50%;
+    float: left;
+    margin-top: 4%;
+    
+}
+
+.cad ul {
+    display: inline;
+    margin: 10px;
+    margin-left: 7vw;
+    
+
+}
+
+.cad li{
+    display: inline;
+    margin: 10px;
+    padding: 0px 21px;
+}
+
+.cad ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.cad ul li a:hover {
+    text-decoration: underline rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: black;
+}
+
+    /* FIM CABEÇALHO */
+
+    .inicial {
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        width: 50vw;
+        margin-left: 25vw;
+        text-align: center;
+        margin-top: 27vh;
+        
+    }
+
+    .inicial h1 {
+        
+        font-size: 84px;
+        padding: 9px;
+        color: white;
+        font-family: 'micke' , sans-serif;
+    
+    }
+
+    .inicial h3 {
+
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'micke' , sans-serif;
+        color: white;
+    }
+
+    .lado {
+        float: left;
+       
+        border-radius: 8px;
+        width: 22vw;
+        margin-top: 100px;
+        margin-left: 1vw;
+        height: auto;
+        background-color: #19b5fe;
+
+    }
+
+    .lado ul {
+        margin: 1px;
+    }
+
+    .lado li {
+        margin: 13px;
+            margin-left: 13px;
+        margin-left: 22px;
+    }
+
+    .lado a {
+        text-decoration: none;
+        color: red;
+        padding: 10px;
+        font-family: 'Barlow',sans-serif;
+    }
+
+    .lado a:hover {
+
+        border: 1px solid rgb(0, 0, 0);
+        background-color: black;
+        border-radius: 14px;
+        color: white;
+    
+    
+    }
+
+    .jogos {
+        margin-top: 100px;
+        width: 50vw;
+        margin-left: 25vw;
+        display: list-item;
+        column-count: 3;
+        column-width: 14vw;
+        column-gap: 10px;
+        border-radius: 7px;
+        background-color: #19b5fe;
+        
+    }
+
+    .jogos div {
+        margin-top: 10px;
+        margin: 10px;
+        height: 300px;
+        text-align: center;
+    }
+
+    .jogos a{
+        color: inherit;
+        text-decoration: none;
+        padding: 15px 0;
+
+    }
+
+    .jogos a:hover{
+        text-decoration: underline black;
+        font-size: 23px;
+
+
+    }
+
+    .jogos h3 {
+
+        color: black;
+        font-family: 'Barlow',sans-serif;
+        padding: 18px 0;
+        font-size: 20px;
+    
+    }
+
+    .jogos img {
+    width: 180px;
+    padding: 18px 0;
+    }
+
+
+
+
+
+    footer {
+        width: 100vw;
+        height: 10vh;
+        background-color: #19b5fe;
+        margin-top: 10%;
+    }
+
+    footer div {
+        color: white;
+        width: 20vw;
+    }
+
+
+/* =========================================================CADASTRO ===================================================== */
+    .page-cadastro {
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    b{
+        font-family: cursive, sans-serif;
+        font-size: 15px;
+    }
+
+    
+
+    .inicio {
+        
+            border-radius: 15px;
+            background-color: rgb(0, 0, 0);
+            width: 50vw;
+            margin-left: 25vw;
+            text-align: center;
+            
+            
+        }
+    
+        .inicio h1 {
+            
+            font-size: 84px;
+            padding: 9px;
+            color: white;
+            font-family: 'micke' , sans-serif;
+        
+        }
+
+        .cadastro {
+            border: 1px solid black;
+            width: 60vw;
+            height: auto;
+            float: left;
+            margin:  30vh 0 10vw 20vw;
+            
+            font-family: 'Barlow' , sans-serif;
+        
+        }
+
+        div#verify {
+            border: 1px solid;
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin: 7px 0 0 10px;
+            border-radius: 7px;
+            display: none;
+        }
+        
+
+        div#verifyS {
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin: 9px 0 0 10px;
+            border-radius: 7px;
+            display: none;
+            font-family: 'micke' , sans-serif;
+            
+        }
+
+        .cadastro  label {
+            width: 40%;
+            height: 20px;
+            float: left;
+            margin: 8px 0 8px 30%;
+        }
+
+        div#r_nome {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+}
+        
+        
+
+        div#r_sobre {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+
+        
+        }
+
+        div#r_email {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+
+        
+        }
+
+        div#r_tel {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+
+        
+        }
+
+        div#r_cpf {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+
+        
+        }
+
+        div#r_ende {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+
+        
+        }
+
+        div#r_cpf {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+
+        
+        }
+
+        div#r_cep {
+            width: 33%;
+            height: 20px;
+            float: left;
+            margin: 1px 0 0px 30%;
+            font-size: 13px;
+
+        
+        }
+    
+        .cadastro  input {
+            width: 20vw;
+            height: 30px;
+            float: left;
+            margin: 8px 0 8px 30%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            
+        }
+
+        .cadastro  button {
+            width: 20%;
+            height: 25px;
+            float: left;
+            margin: 8px 0 20px 36%;
+            border-radius: 7px;
+        }
+
+       
+ /* =============================== login ======================= login ================================= login */
+
+ .page-login {
+
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .frase-login {
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        width: 50vw;
+        margin-left: 25vw;
+        text-align: center;
+        margin-top: 24vh;
+        
+    }
+
+    .frase-login h2 {
+        
+        font-size: 84px;
+        padding: 9px;
+        color: white;
+        font-family: 'micke' , sans-serif;
+    
+    }
+ 
+    .painel {
+        border: 1px solid;
+        width: 30%;
+        height: 340px;
+        margin: 5% 0 8% 36%;
+        border-radius: 5px;
+        font-family: 'Barlow' ,sans-serif ;
+    }
+
+    .painel h2 {
+        margin: 12px 0 34px 23%;
+        font-size: 29px;
+    }
+
+    input#emailL {
+        width: 80%;
+        margin: 0 0 15px 21px;
+        height: 25px;
+        border-bottom: 1px solid;
+        padding: 0 0 10px 10px;
+    }
+
+    input#senhaL {
+        width: 80%;
+        margin: 0 0 15px 21px;
+        height: 25px;
+        border-bottom: 1px solid;
+        padding: 0 0 10px 10px;
+    }
+
+    label.checkbox {
+        width: 80%;
+        margin: 20px 0 0 20px;
+        height: 30px;
+        float: left;
+        padding: 0 0px 0px 0px;
+    }
+
+    input#lembrar {
+        margin-right: 5px;
+    }
+
+    button.btn {
+        float: left;
+        width: 32%;
+        margin: 12px 35%;
+        height: 30px;
+        border-radius: 3px;
+        background-color: white;
+        border-bottom: 1px solid;
+        color: black;
+    }
+
+    button.btn:hover {
+        width: 33%;
+        margin: 12px 34%;
+        background-color: black;
+        color: white;
+        font-family: cursive, sans-serif;
+    }
+    
+    .ES {
+        width: 50%;
+        height: 25px;
+        float: left;
+        margin: 13px 20px;
+    }
+
+    .ES a {
+        padding: 0 0 0 0;
+        font-size: 16px;
+        text-decoration: underline;
+        color: black;
+        padding: 13px;
+    }
+
+    .ES a:hover {
+        padding: 0 0 0 0;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        border:  2px solid ;
+        border-radius: 5px;
+        padding: 10px;
+    }
