@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <title>Cadastro Stoinks</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./javascript/dev.js"></script>
+
+</head>
+
+<body>
+    <div class="page-cadastro">
+        <header>
+            <nav class="navegação">
+                <div class="imagem">
+                    <img src="./imagens/logo.png" alt="logo" title="Stoinks">
+                </div>
+                <div class="meio">
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="##">Sobre</a></li>
+                        <li><a href="##">Contato</a></li>
+                        <li><a href="##">Jogos</a></li>
+                    </ul>
+                </div>
+                <div class="cad">
+                    <ul>
+                        <li><a href="./login.html">Login</a></li>
+                        <li><a href="./cadastro.html">Cadastro</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="inicio">
+            <h1>Cadastro</h1>
+        </div>
+
+
+        <form action="" method="post" class="cadastro">
+
+            <label class="tex">Nome*</label>
+            <input type="text" placeholder="João" id="nome">
+            <div id="r_nome" class="text"></div>
+
+            <label class="tex">Sobrenome*</label>
+            <input type="text" placeholder="Silva" id="sobrenome">
+            <div id="r_sobre" class="text"></div>
+
+            <label class="tex">E-mail*</label>
+            <input type="email" placeholder="Example@Exemple.com" id="email">
+            <div id="r_email" class="text"></div>
+
+            <label class="tex">Senha*</label>
+            <input type="password" placeholder="*******" id="senha" maxlength="16" name="senha">
+
+            <label class="tex">Confirmar Senha*</label>
+            <input type="password" placeholder="*******" id="Csenha" maxlength="16" name="senha1" onchange="confirm()">
+
+            <div class="quadrado" id="verifyS"></div>
+            <label for="" class="text" id="text"></label>
+
+            <label class="tex">Telefone*</label>
+            <input type="text" placeholder="xx xxxxx-xxxx" id="Tel" maxlength="11" onchange="maskTel(this)">
+            <div id="r_tel" class="text"></div>
+
+            <label class="tex">CPF*</label>
+            <input type="text" placeholder="xxx-xxx-xxx-xx" id="cpf_usuario" maxlength="11" onchange="mCPF(this)">
+            <div id="r_cpf" class="text"></div>
+
+            <label class="tex">Endereço*</label>
+            <input type="text" placeholder="Rua Example" id="endereco">
+            <div id="r_ende" class="text"></div>
+
+            <label class="tex">CEP*</label>
+            <input type="text" placeholder="xxxxx-xxx" id="Cep" maxlength="9" onkeydown="mcep(this , '#####-###')"  >
+            <div id="r_cep" class="text"></div>
+
+            <button type="button" onclick="verificar()">Cadastrar</button>
+
+        </form>
+            
+    
+    </div>
+</body>
+
+</html>
